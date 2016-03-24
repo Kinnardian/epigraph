@@ -1,0 +1,8 @@
+;;testpage.grph
+(include 'header')
+p I get turned into an HTML page
+P With a few variables inside me
+    p like my title: ${title}
+    p and my favorite number: ${author}
+    p And the name of the one who called upon me: ${author} 
+('footer')
